@@ -1,0 +1,10 @@
+So basically next time thing like this happen I do
+
+1. pip show [packageName]
+1.1. take the [location path] 
+2.write it in the beginning of the code like that :
+
+import sys
+sys.path.append(r'[location path] ')
+
+from web3 import Web3
